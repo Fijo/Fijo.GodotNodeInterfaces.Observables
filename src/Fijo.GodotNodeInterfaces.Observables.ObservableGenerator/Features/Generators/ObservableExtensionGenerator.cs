@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Interfaces;
-using LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Roslyn;
+using Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Interfaces;
+using Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Roslyn;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Text;
 
-namespace LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Generators;
+namespace Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Generators;
 
 [Generator]
 public class ObservableExtensionGenerator : ISourceGenerator

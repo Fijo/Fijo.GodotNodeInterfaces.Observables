@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Generators;
+using Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Generators;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 
-namespace LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Tests;
+namespace Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Tests;
 
 public class EventWrapperGenerationShould {
     

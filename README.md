@@ -1,9 +1,9 @@
-﻿# LokiCat.GodotNodeInterfaces.Observables
+﻿# Fijo.GodotNodeInterfaces.Observables
 
 > **Generate R3 Observables from Godot signals via Chickensoft.GodotNodeInterfaces**
 
-![NuGet](https://img.shields.io/nuget/v/LokiCat.GodotNodeInterfaces.Observables?label=NuGet)
-[![CI](https://github.com/fahall/LokiCat.GodotNodeInterfaces.Observables/actions/workflows/release.yml/badge.svg)](https://github.com/fahall/LokiCat.GodotNodeInterfaces.Observables/actions/workflows/release.yml)
+![NuGet](https://img.shields.io/nuget/v/Fijo.GodotNodeInterfaces.Observables?label=NuGet)
+[![CI](https://github.com/fahall/Fijo.GodotNodeInterfaces.Observables/actions/workflows/release.yml/badge.svg)](https://github.com/Fijo/Fijo.GodotNodeInterfaces.Observables/actions/workflows/release.yml)
 
 ---
 
@@ -56,7 +56,7 @@ Observable.FromEvent<PressedEventHandler, Unit>(
 * ❌ Verbose
 * ❌ Easy to miswire
 
-#### ✅ With LokiCat.GodotNodeInterfaces.Observables
+#### ✅ With Fijo.GodotNodeInterfaces.Observables
 
 ```csharp
 button.OnPressedAsObservable()
@@ -143,7 +143,7 @@ public Observable<Unit> OnPressed => _onPressed ??= ConnectPressed();
 Install via NuGet:
 
 ```bash
-dotnet add package LokiCat.GodotNodeInterfaces.Observables
+dotnet add package Fijo.GodotNodeInterfaces.Observables
 ```
 
 ---
@@ -178,6 +178,7 @@ dotnet test
 
 ## 🙏 Credits
 
+* [LokiCat.GodotNodeInterfaces.Observables](https://github.com/fahall/LokiCat.GodotNodeInterfaces.Observables) from where this was forked!
 * [Chickensoft](https://github.com/chickensoft-games) for `GodotNodeInterfaces`
 * [Cysharp](https://github.com/Cysharp/R3) for `R3`
 * [Godot C# community](https://github.com/godotengine/godot) for enabling typed signals in C#

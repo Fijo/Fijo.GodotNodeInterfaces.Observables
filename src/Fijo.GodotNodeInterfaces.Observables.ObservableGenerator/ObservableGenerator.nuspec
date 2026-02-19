@@ -9,8 +9,8 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
     </metadata>
     <files>
-        <file src="bin\Release\net8.0\LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.dll" target="lib\net8.0" />
-        <file src="buildTransitive\LokiCat.GodotNodeInterfaces.Observables.targets" target="buildTransitive" />
+        <file src="bin\Release\net8.0\Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.dll" target="lib\net8.0" />
+        <file src="buildTransitive\Fijo.GodotNodeInterfaces.Observables.targets" target="buildTransitive" />
         <file src="ref\net8.0\_._" target="ref\net8.0" />
     </files>
 </package>

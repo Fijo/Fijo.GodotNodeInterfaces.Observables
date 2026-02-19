@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.CodeAnalysis;
 
-namespace LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Roslyn;
+namespace Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Roslyn;
 
 internal static class RoslynExtensions
 {

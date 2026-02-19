@@ -1,7 +1,7 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 
-namespace LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Interfaces;
+namespace Fijo.GodotNodeInterfaces.Observables.ObservableGenerator.Features.Interfaces;
 
 internal static class InterfaceExtensions
 {
