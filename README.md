@@ -2,7 +2,7 @@
 
 > **Generate R3 Observables from Godot signals via Chickensoft.GodotNodeInterfaces**
 
-![NuGet](https://img.shields.io/nuget/v/Fijo.GodotNodeInterfaces.Observables?label=NuGet)
+[![NuGet](https://img.shields.io/nuget/v/Fijo.GodotNodeInterfaces.Observables?label=NuGet)](https://www.nuget.org/packages/Fijo.GodotNodeInterfaces.Observables)
 [![CI](https://github.com/Fijo/Fijo.GodotNodeInterfaces.Observables/actions/workflows/release.yml/badge.svg)](https://github.com/Fijo/Fijo.GodotNodeInterfaces.Observables/actions/workflows/release.yml)
 
 ---
