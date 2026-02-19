@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <LangVersion>latest</LangVersion>
 
         <!-- Ensure this is an analyzer, not a runtime library -->
@@ -13,13 +13,13 @@
         <OutputPath>bin\Release\</OutputPath>
 
         <!-- Package Metadata -->
-        <PackageId>LokiCat.GodotNodeInterfaces.Observables</PackageId>
-        <Version>1.0.0</Version>
-        <Authors>Alex Hall</Authors>
-        <Description>Generates AsObservable extensions for Chickensoft GodotNodeInterfaces</Description>
-        <PackageTags>godot r3 roslyn rx observable</PackageTags>
-        <PackageProjectUrl>https://github.com/fahall/LokiCat.GodotNodeInterfaces.Observables</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/fahall/LokiCat.GodotNodeInterfaces.Observables.git</RepositoryUrl>
+        <PackageId>Fijo.GodotNodeInterfaces.Observables</PackageId>
+        <Version>2.0.0</Version>
+        <Authors>Alex Hall, Jonas Fischer</Authors>
+        <Description>Generates AsObservable extensions for Chickensoft GodotNodeInterfaces (Forked by Fijo)</Description>
+        <PackageTags>godot r3 roslyn rx observable forked</PackageTags>
+        <PackageProjectUrl>https://github.com/Fijo/LokiCat.GodotNodeInterfaces.Observables</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Fijo/LokiCat.GodotNodeInterfaces.Observables.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -29,9 +29,9 @@
         <EmbedAllSources>true</EmbedAllSources>
         <SourceLinkCreate>true</SourceLinkCreate>
         <AssemblyTitle>LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator</AssemblyTitle>
-        <Description>Generates AsObservable extensions for GodotNodeInterfaces</Description>
-        <Company>LokiCat</Company>
-        <Product>LokiCat.GodotNodeInterfaces.Observables.ObservableGenerator</Product>
+        <Description>Generates AsObservable extensions for GodotNodeInterfaces (Forked by Fijo)</Description>
+        <Company>Fijo</Company>
+        <Product>Fijo.GodotNodeInterfaces.Observables.ObservableGenerator</Product>
         <DebugSymbols>true</DebugSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <IsRoslynComponent>true</IsRoslynComponent>

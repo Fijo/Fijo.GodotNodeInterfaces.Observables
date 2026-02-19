@@ -76,7 +76,7 @@ public class ObservableExtensionGenerator : ISourceGenerator
         sb.AppendLine(BuildUsings(iface, events));
         sb.AppendLine(BuildExtensionClass(iface, wrappers));
 
-        AddSource(context, $"{iface.ShortName()}Extensions.g.cs", sb.ToString());
+        AddSource(context, $"{iface.ShortName()}ObservableExtensions.g.cs", sb.ToString());
     }
 
 
@@ -104,7 +104,7 @@ public class ObservableExtensionGenerator : ISourceGenerator
     private static string BuildExtensionClass(INamedTypeSymbol iface, string[] eventWrappers)
     {
         var sb = new StringBuilder();
-        sb.AppendLine($"public static class {iface.ShortName()}ObservableExtensions");
+        sb.AppendLine($"public static class {iface.ShortName()}ObservableExtensions ");
         sb.AppendLine("{");
 
         foreach (var wrapper in eventWrappers)

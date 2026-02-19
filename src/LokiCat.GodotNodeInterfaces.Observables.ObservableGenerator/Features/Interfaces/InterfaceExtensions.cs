@@ -7,7 +7,7 @@ internal static class InterfaceExtensions
 {
     public static string ShortName(this INamedTypeSymbol iface)
     {
-        return iface.Name.StartsWith("I") && iface.Name.Length > 1 && char.IsUpper(iface.Name[1])
+        return iface.Name.StartsWith('I') && iface.Name.Length > 1 && char.IsUpper(iface.Name[1])
             ? iface.Name[1..]
             : iface.Name;
     }
